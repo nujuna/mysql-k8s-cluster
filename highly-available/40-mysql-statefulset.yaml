@@ -158,5 +158,5 @@ spec:
         configMap:
           name: mysql
       - name: data
-          persistentVolumeClaim:
-            claimName: mysql-pvc
+        persistentVolumeClaim:
+          claimName: mysql-pvc
